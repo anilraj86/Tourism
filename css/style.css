@@ -41,7 +41,7 @@ display: block;
 
 }
 .back-img{
-    background-image: url("/images/bck.png");
+    background-image: url("images/bck.png");
     background-size: cover;   
 }
 footer{
