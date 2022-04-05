@@ -8,22 +8,22 @@
 <script src="js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/style.css">
 
-<body>
+<body class="back-img">
      <!-- Navigation  -->
     
      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/title.png" alt=""></a>
+          <a class="navbar-brand" href="#"><img src="/images/title.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"><img src="images/home.png" alt=""></a>
+                <a class="nav-link active" aria-current="page" href="index.html"><img src="/images/home.png" alt=""></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="menu-style" href="destination.html">Where to go</a>
+                <a class="nav-link active-tabs" id="menu-style" href="destination.html">Where to go</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="menu-style" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,7 +47,7 @@
                 <a class="nav-link" id="menu-style" href="#">Facts</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="menu-style" href="#">Travel to Kerala</a>
+                <a class="nav-link" id="menu-style" href="travelkerala.html">Travel to Kerala</a>
               </li>
               <li class="nav-item">
                 <!-- <a class="nav-link disabled">Disabled</a> -->
@@ -64,10 +64,11 @@
       <!-- / Nav ends here -->
 
       <!--  Carousel -->
+      <div class="caro-div">
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="/images/Car/akkulam.jpg" class="d-block w-10" alt="...">
+            <img src="/images/dest/kollam/car1.jpg" class="d-block w-10" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <img src="/images/Car/cherai_beach.jpg" class="d-block w-10" alt="...">
@@ -91,13 +92,42 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
       <!-- /Carousel -->
 
+      <!-- body of kollam -->
+
+      <div class="place-det-klm">
+        <h2>Welcome to Kollam</h2>
+        <p>Kollam also known by its former name Quilon is an ancient seaport and city on the Malabar Coast of India It is 66 km (41 mi) north of the state capital Thiruvananthapuram. The city is on the banks of Ashtamudi Lake and the Kallada river. Kollam has a strong commercial reputation since ancient times. The Arabs, Phoenicians, Chinese, Ethiopians, Syrians, Jews, Chaldeans and Romans have all engaged in trade at the port of Kollam for millennia. Kollam is also home to one of the seven churches that were established by St Thomas as well as one of the 10 oldest mosques believed to be found by Malik Deenar in Kerala.</p>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 place-det-klm">
+            <h2>Palaruvi Water Falls</h2>
+            <img src="images/dest/kollam/1.jpg" alt="">
+            <p>Palaruvi waterfalls is the 32nd highest waterfalls in India. Located in the sleepy village of Aryankavu in the district of Kollam</p>
+          </div>
+          <div class="col-lg-4 place-det-klm">
+            <h2>Jatayupara</h2>
+            <img src="images/dest/kollam/5.jpg" alt="">
+            <p>The spot is famous for the giant rock sculpture of Jatayu, the mythical bird of the epic Ramayana.</p>
+          </div>
+          <div class="col-lg-4 place-det-klm">
+            <h2>Tangasseri Lighthouse</h2>
+            <img src="images/dest/kollam/3.jpg" alt="">
+            <p>Tangasseri Lighthouse or Thangassery Lighthouse is situated at Tangasseri in Kollam city of the Indian state of Kerala</p>
+          </div>
+        </div>
+      </div>
+      <!--/ body of kollam -->
       <!-- Footer -->
     <footer class="page-footer font-small blue">
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2022 Copyright:
           <a href="/"> Kerala Tourism</a>
+          <p>Powered by Anilraj.R</p>
         </div>
         <!-- Copyright -->
       </footer>
