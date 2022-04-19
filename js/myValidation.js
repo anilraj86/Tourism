@@ -95,7 +95,7 @@ function loginValidate()
             strengthBadge.textContent="Strong";
             //alert("eStrrror");
         }
-        else 
+        else if(password!="")
         {
             strengthBadge.style.backgroundColor="blue";
             strengthBadge.textContent="Password does not meet the requirements";
