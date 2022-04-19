@@ -92,6 +92,11 @@ footer{
     height: 35px;
 
 }
+#txt-stylpw{
+    width: 90%;
+    height: 35px;
+
+}
 #btn-stl{
 
     border: 1px solid orange;
@@ -112,11 +117,22 @@ footer{
     border: 1px solid orange;
 }
 
-#sutxt-styl
+.sutxt-styl
 {
     width: 95%;
     height: 35px;
     
+}
+
+.createPassword
+{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+.reqField
+{
+    color: red;
+    font-size: 25px;
 }
 /* /Sign up here */
 
